@@ -1,0 +1,21 @@
+﻿{
+    "name": "dwight-trujillo/php-state-machine",
+    "description": "A declarative state machine with conditional transitions, transaction rollback, history & Mermaid visualization",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "StateMachine\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=8.0"
+    },
+    "authors": [
+        {
+            "name": "dwight-trujillo",
+            "role": "Developer"
+        }
+    ],
+    "keywords": ["state-machine", "workflow", "finite-state-machine", "php", "rollback", "visualization"]
+}
